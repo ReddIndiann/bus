@@ -50,33 +50,7 @@ export default function Home() {
               className="w-full px-3 py-2 text-black border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
             />
           </div>
-          <p className="mb-4">You can select an amount to continue...</p>
-          <div className="flex flex-wrap gap-10 mb-4">
-            <button type="button" className="w-1/5 px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-               5.00
-            </button>
-            <button type="button" className="w-1/5  px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-              10.00
-            </button>
-            <button type="button" className="w-1/5  px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-              50.00
-            </button>
-            <button type="button" className="w-1/5  px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-              100.00
-            </button>
-            <button type="button" className="w-1/5  px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-              500.00
-            </button>
-            <button type="button" className="w-1/5  px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-              1000.00
-            </button>
-            <button type="button" className="w-1/5  px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-             5000.00
-            </button>
-            <button type="button" className="w-1/5  px-4 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring focus:border-blue-300">
-              10000.00
-            </button>
-          </div>
+          
           <button
             type="submit"
             className="w-full bg-green-500 text-black font-bold py-2 rounded-lg hover:bg-green-600 focus:outline-none focus:ring focus:border-blue-300"

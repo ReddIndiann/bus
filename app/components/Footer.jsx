@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="bg-white h-px w-full" />
       <div className="container mx-auto py-4 px-4 lg:px-0">
         <div className="flex justify-between">
-          <div className="text-sm lg:text-base lg:flex">
+          <div className="text-sm lg:text-base lg:flex gap-4">
             <div>Privacy Policy</div>
             <div>Cookie Policy (GH)</div>
             <div>Disclaimer</div>
