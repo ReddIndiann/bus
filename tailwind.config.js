@@ -12,7 +12,16 @@ module.exports = {
     extend: {
       fontSize: {
         '10xl': '12rem',
-        'mt-75': '19rem', // Add custom font size
+      
+        'xsm': '5px',
+         // Add custom font size
+        // Add any other custom styles here
+      },
+      padding: {
+        
+        'mt-75': '19rem',
+
+         // Add custom font size
         // Add any other custom styles here
       },
     },

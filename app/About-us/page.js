@@ -11,7 +11,7 @@ export default function Home() {
         style={{ backgroundImage: "url('../bb2.svg')" }}
       >
         <div className="bg-transparent text-white  md:p-10 lg:p-20 absolute  left-0 w-full md:w-3/4 lg:w-3/4 ">
-          <h1 className="font-bold  md:text-4xl lg:text-3xl leading-tight mb-4  lg:-mt-16">
+          <h1 className="font-bold  md:text-4xl lg:text-6xl leading-tight mb-4  lg:-mt-16">
           About Us
           </h1>
           <p className="text-base md:text-lg lg:text-sm mb-3">
@@ -34,9 +34,9 @@ export default function Home() {
       <div className="flex justify-center items-center h-screen bg-white">
       <div className="flex flex-col md:flex-row items-center m-10 md:m-20 lg:m-40">
         <div className="mb-10 md:mr-10 md:mb-0">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4">BuzStopBoys: Purifying and Restoring Environments Across Ghana</h1>
-          <p className="text-sm md:text-lg">
-            Welcome to <span className="font-bold">BuzStopBoys</span>, where we're dedicated to restoring Africa's landscapes. Our initiative focuses on cleaning and revitalizing degraded areas, promoting sustainable land management practices for a greener future. Join us in our mission to reclaim and restore Africa's ecosystems.
+          <h1 className="lg:text-5xl md:text-4xl font-semibold mb-4">BuzStopBoys: Purifying and Restoring Environments Across Ghana</h1>
+          <p className="lg:text-2xl md:text-lg">
+            Welcome to <span className="font-bold">BuzStopBoys</span>, where we're  <br className="hidden md:block" />dedicated to restoring Africa's landscapes. Our <br className="hidden md:block" /> initiative focuses on cleaning and revitalizing  <br className="hidden md:block" />degraded areas, promoting sustainable land <br className="hidden md:block" /> management practices for a greener future. Join <br className="hidden md:block" /> us in our mission to reclaim and restore Africa's <br className="hidden md:block" /> ecosystems.
           </p>
         </div>
         <div className="letter-background">
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="w-full bg-black flex justify-center items-center py-16">
+    <div className=" bg-black flex justify-center items-center py-16">
   <div className="text-center w-full px-4">
     <h1 className="text-3xl md:text-4xl lg:text-5xl text-green-500 mt-4">
       BuzStopBoys Goals
@@ -57,29 +57,29 @@ export default function Home() {
     </p>
     <div className="flex flex-wrap justify-center items-center mt-16 gap-24">
       <div className="text-center">
-        <Image src="/abticon1.png" width={70} height={70} alt="Integration Icon" className="mx-auto mb-4"/>
+        <img src="/abticon1.png" width={70} height={70} alt="Integration Icon" className="mx-auto mb-4"/>
         <p className="text-white">Integration for Cleaner<br/> Landscapes in Ghana</p>
       </div>
       <div className="text-center">
-        <Image src="/abticon2.png" width={70} height={70} alt="Patriotism Icon" className="mx-auto mb-4"/>
+        <img src="/abticon2.png" width={70} height={70} alt="Patriotism Icon" className="mx-auto mb-4"/>
         <p className="text-white">Fostering Patriotism <br/>Through Our Actions</p>
       </div>
       <div className="text-center">
-        <Image src="/abticon3.png" width={70} height={70} alt="Selflessness Icon" className="mx-auto mb-4"/>
+        <img src="/abticon3.png" width={70} height={70} alt="Selflessness Icon" className="mx-auto mb-4"/>
         <p className="text-white">Advocating Selflessness <br/>Through our Initiatives</p>
       </div>
       <div className="text-center">
-        <Image src="/abticon4.png" width={70} height={70} alt="Ghana First Icon" className="mx-auto mb-4"/>
+        <img src="/abticon4.png" width={70} height={70} alt="Ghana First Icon" className="mx-auto mb-4"/>
         <p className="text-white">Advancing the 'Ghana First'<br/> Agenda Through Our Efforts</p>
       </div>
       {/* New container for bottom row */}
       <div className="flex justify-center w-full md:w-1/2 gap-10 mt-10">
         <div className="text-center">
-          <Image src="/abticon5.png" width={50} height={50} alt="Responsible Citizenship Icon" className="mx-auto mb-4"/>
+          <img src="/abticon5.png" width={50} height={50} alt="Responsible Citizenship Icon" className="mx-auto mb-4"/>
           <p className="text-white">Encouraging Responsible<br/> Citizenship Through Our <br/>Endeavors</p>
         </div>
         <div className="text-center">
-          <Image src="/abticon6.png" width={70} height={70} alt="Empowerment Icon" className="mx-auto mb-4"/>
+          <img src="/abticon6.png" width={70} height={70} alt="Empowerment Icon" className="mx-auto mb-4"/>
           <p className="text-white">Empowering Ghanaians to<br/> Realize Their Power in Nation <br/>Building</p>
         </div>
       </div>
@@ -134,7 +134,7 @@ export default function Home() {
   <Link href="/contact" passHref>
     <button className="bg-black text-green-500 px-12 py-2 rounded-full border border-white hover:bg-green-700 text-xl flex items-center justify-center mt-4">
       Make A Donation       
-      <Image src="/donationicon.png" alt='' width={24} height={24} className='ml-2' />
+      <img src="/donationicon.png" alt='' width={24} height={24} className='ml-2' />
     </button>     
   </Link>
 </div>
@@ -148,48 +148,48 @@ export default function Home() {
       </div>
       <div className='flex flex-wrap justify-center'>
         <div className='m-4'>
-          <Image src='/board1.svg' width={400} height={400} alt="Heneba K. Safo" />
+          <img src='/board1.svg' width={400} height={400} alt="Heneba K. Safo" />
           <p className='text-white font-bold text-xl mt-4'>Heneba K. Safo</p>
           <div className='text-white mt-2'>Executive Director/Founder</div>
         </div>
         <div className='m-4'>
-          <Image src='/board2.svg' width={400} height={400} alt="Solomon K. Adjei" />
+          <img src='/board2.svg' width={400} height={400} alt="Solomon K. Adjei" />
           <p className='text-white font-bold text-xl mt-4'>Solomon K. Adjei</p>
           <div className='text-white mt-2'>Organizer / IT Support Specialist</div>
         </div>
         <div className='m-4'>
-          <Image src='/board3.svg' width={400} height={400} alt="Nelson G. Awere" />
+          <img src='/board3.svg' width={400} height={400} alt="Nelson G. Awere" />
           <p className='text-white font-bold text-xl mt-4'>Nelson G. Awere</p>
           <div className='text-white mt-2'>Fundraising Coordinator</div>
         </div>
         <div className='m-4'>
-          <Image src='/board4.svg' width={400} height={400} alt="Samuel Apraku" />
+          <img src='/board4.svg' width={400} height={400} alt="Samuel Apraku" />
           <p className='text-white font-bold text-xl mt-4'>Samuel Apraku</p>
           <div className='text-white mt-2'>Human Resources Manager</div>
         </div>
         <div className='m-4'>
-          <Image src='/board5.svg' width={400} height={400} alt="Kwame Baah" />
+          <img src='/board5.svg' width={400} height={400} alt="Kwame Baah" />
           <p className='text-white font-bold text-xl mt-4'>Kwame Baah</p>
           <div className='text-white mt-2'>Volunteer Coordinator</div>
         </div>
         <div className='m-4'>
-          <Image src='/board6.svg' width={400} height={400} alt="Elle Custers" />
+          <img src='/board6.svg' width={400} height={400} alt="Elle Custers" />
           <p className='text-white font-bold text-xl mt-4'>Elle Custers</p>
           <div className='text-white mt-2'>Advocacy Specialist</div>
         </div>
       </div>
     </div><div className="w-full bg-white` flex justify-center items-center h-auto py-16">
   <div className="text-center bg-white w-11/12 lg:w-3/4">
-    <h1 className="text-3xl md:text-4xl lg:text-5xl text-black font-bold mb-8">
+    <h1 className="text-3xl md:text-4xl lg:text-5xl text-black font-semibold mb-20">
       Community Feedback
     </h1>
-    <p className="text-2xl md:text-3xl lg:text-4xl text-black mb-8">
+    <p className="text-2xl md:text-3xl lg:text-4xl text-black font-semibold  mb-8 py-16">
       The impact of BuzStopBoys' work is tangible and inspiring. Their commitment to cleanliness and public health is commendable.
     </p>
-    <p className="text-xl md:text-2xl lg:text-3xl text-black font-semibold mt-8">
+    <p className="text-lg md:text-lg lg:text-lg text-black font-semibold mt-8">
       Prof. John Doe
     </p>
-    <p className="text-lg md:text-xl lg:text-2xl text-black mt-4">
+    <p className="text-lg md:text-lg lg:text-lg text-black mt-4">
       Environmental Scientist
     </p>
   </div>

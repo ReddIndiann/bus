@@ -182,12 +182,13 @@ export default function Home() {
   ];
 
   const videos = [
-    { src: "https://www.youtube.com/embed/your-video-id", size: 'large', title:"YouTube video" },
-    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    // { src: "https://www.youtube.com/embed/your-video-id", size: 'large', title:"YouTube video" },
+    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    { src: '../bb5.svg', size: 'small' }, 
   ];
 
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
