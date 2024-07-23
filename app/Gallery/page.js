@@ -182,13 +182,13 @@ export default function Home() {
   ];
 
   const videos = [
-    // { src: "https://www.youtube.com/embed/your-video-id", size: 'large', title:"YouTube video" },
-    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    // { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
-    { src: '../bb5.svg', size: 'small' }, 
+    { src: "https://www.youtube.com/embed/your-video-id", size: 'large', title:"YouTube video" },
+    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+    { src: "https://www.youtube.com/embed/your-video-id", size: 'small', title:"YouTube video" },
+   
   ];
 
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
@@ -252,7 +252,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-white lg:mx-auto mx-10">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {currentContent.slice(0, visibleCount).map((item, index) => (

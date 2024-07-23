@@ -20,7 +20,7 @@ export default function Home() {
           clearInterval(timer);
         }
         count += 1;
-      }, 15000 / target);
+      }, 100000 / target);
     });
   }, []);
 
@@ -181,7 +181,6 @@ export default function Home() {
     </div>
   </div>
 </div>
-
 <div className="bg-black py-8 md:py-16">
   <div className="container mx-auto text-start px-4">
     <p className="text-green-500 text-2xl md:text-3xl text-center mb-8 md:mb-12 lg:text-start">
@@ -189,51 +188,62 @@ export default function Home() {
     </p>
     
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-      <div className="flex flex-col items-center md:items-start">
-        <div className="w-full h-64 md:h-80 mb-4  sm:h-80  overflow-hidden">
-          <img 
-            src="/update1.png" 
-            alt='' 
-            className='w-full h-full object-cover'
-          />
+      <div className="flex flex-col items-start"> {/* Align items vertically */}
+        <div className="flex flex-col items-start w-full">
+          <div className="relative w-full h-64 md:h-80 mb-4 bg-transparent">
+            <img 
+              src="/update1.png" 
+              alt='' 
+              className='object-contain w-full h-full'
+            />
+          </div>
+          <div className="flex flex-col justify-between h-full ml-20"> {/* Make the text container fill the remaining height */}
+            <p className="text-white text-sm md:text-base mb-2 ">
+              1957 got featured on the street today with <br/>the @buzstopboys Dial:*447*1957# for your tickets.
+            </p>
+            <div className="text-green-500 cursor-pointer">Learn More</div>
+          </div>
         </div>
-        <p className="text-white text-sm md:text-base">
-          1957 got featured on the street today with <br/>the @buzstopboys Dial:*447*1957# for your tickets.
-        </p>
-        <div className="text-green-500 mt-2 cursor-pointer">Learn More</div>
       </div>
 
-      <div className="flex flex-col items-center md:items-start">
-        <div className="w-full h-64 md:h-80 mb-4 overflow-hidden bg-white">
-          <img 
-            src="/update2.svg" 
-            alt='' 
-            className='w-full h-full object-contain'
-          />
+      <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start w-full">
+          <div className="relative w-full h-64 md:h-80 mb-4 bg-transparent">
+            <img 
+              src="/update2.svg" 
+              alt='' 
+              className='object-contain w-full h-full'
+            />
+          </div>
+          <div className="flex flex-col justify-between h-full  ml-20">
+            <p className="text-white text-sm md:text-base mb-2">
+              Roads Minister Asenso-Boakye donates <br/>GHc10,000 to the "Buzstopboys" initiative
+            </p>
+            <div className="text-green-500 cursor-pointer">Learn More</div>
+          </div>
         </div>
-        <p className="text-white text-sm md:text-base">
-          Roads Minister Asenso-Boakye donates <br/>GHc10,000 to the "Buzstopboys" initiative
-        </p>
-        <div className="text-green-500 mt-2 cursor-pointer">Learn More</div>
       </div>
 
-      <div className="flex flex-col items-center md:items-start">
-        <div className="w-full h-64 md:h-80 mb-4 overflow-hidden">
-          <img 
-            src="/update3.svg" 
-            alt='' 
-            className='w-full h-full object-cover'
-          />
+      <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start w-full">
+          <div className="relative w-full h-64 md:h-80 mb-4 bg-transparent">
+            <img 
+              src="/update3.svg" 
+              alt='' 
+              className='object-contain w-full h-full'
+            />
+          </div>
+          <div className="flex flex-col justify-between h-full lg:ml-20  ">
+            <p className="text-white text-sm md:text-base mb-2">
+              Mallam Junction Clean-Up with BuzStopBoys
+            </p>
+            <div className="text-green-500 cursor-pointer">Learn More</div>
+          </div>
         </div>
-        <p className="text-white text-sm md:text-base">
-          Mallam Junction Clean-Up with BuzStopBoys
-        </p>
-        <div className="text-green-500 mt-2 cursor-pointer">Learn More</div>
       </div>
     </div>
   </div>
 </div>
-
 
 
       <div className="w-full h-96 flex flex-col justify-center items-center py-16">

@@ -28,13 +28,13 @@ export default function Home() {
   return (
     <>
     <div className='bg-white w-full py-16'>
-      <div className='text-start ml-10 font-semibold '>
-        <p className='text-black text-4xl md:text-5xl lg:text-8xl mb-8'>contacts</p>
+      <div className='text-start lg:ml-48 ml-24  font-semibold '>
+        <p className='text-black   text-4xl md:text-5xl lg:text-8xl mb-8'>contacts</p>
       </div>
       <div className='flex flex-wrap justify-center'>
     
         <div className='m-4'>
-          <Image src='/board4.svg' width={400} height={400} alt="Samuel Apraku" />
+          <img src='/board4.svg' width={400} height={400} alt="Samuel Apraku" />
           <p className='text-black font-bold text-xl mt-4'>Samuel Apraku</p>
           <div className='text-black mt-2 font-thin'>Human Resources Manager</div>
           <div className='text-black mt-7'>Phone Number</div>
@@ -42,14 +42,14 @@ export default function Home() {
 
         </div>
         <div className='m-4'>
-          <Image src='/board5.svg' width={400} height={400} alt="Kwame Baah" />
+          <img src='/board5.svg' width={400} height={400} alt="Kwame Baah" />
           <p className='text-black font-bold text-xl mt-4'>Kwame Baah</p>
           <div className='text-black mt-2 font-thin'>Volunteer Coordinator</div>
           <div className='text-black mt-7'>Phone Number</div>
           <div className='text-black mt-2'>buzstopboys.org</div>
         </div>
         <div className='m-4'>
-          <Image src='/board6.svg' width={400} height={400} alt="Elle Custers" />
+          <img src='/board6.svg' width={400} height={400} alt="Elle Custers" />
           <p className='text-black font-bold text-xl mt-4 '>Elle Custers</p>
           <div className='text-black mt-2 font-thin'>Advocacy Specialist</div>
           <div className='text-black mt-7'>Phone Number</div>
@@ -60,7 +60,7 @@ export default function Home() {
     <section className="bg-black text-white py-12">
       <div className="container mx-auto">
         <h2 className="text-6xl font-bold text-center mb-8">Give Feedback</h2>
-        <form onSubmit={handleSubmit} className="max-w-6xl mx-auto space-y-6">
+        <form onSubmit={handleSubmit} className="max-w-6xl lg:mx-auto space-y-6 m-28">
           <div>
             <input
               type="text"
