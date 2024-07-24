@@ -30,14 +30,14 @@ export default function Home() {
         className="w-full min-h-screen bg-cover bg-center relative flex items-end"
         style={{ backgroundImage: "url('../Hero.svg')" }}
       >
-        <div className="bg-transparent text-white md:p-10 lg:p-20 absolute mt left-0 w-full md:w-3/4 lg:w-3/4 ">
-          <h1 className="hero-text font-bold md:text-4xl lg:text-4xl leading-tight mb-4 lg:-mt-16">
-            Join Buzstopboys <br className="hidden md:block" />
-            Volunteering: Make a <br className="hidden md:block" />
+        <div className="bg-transparent text-white md:p-10 lg:p-20 absolute mt left-0 w-full md:w-3/4 lg:w-3/4 px-10 pb-4" >
+          <h1 className="hero-text font-bold md:text-4xl text-3xl  lg:text-4xl  leading-tight mb-4 lg:-mt-16">
+            Join Buzstopboys <br className="hidden md:block sm:block" />
+            Volunteering: Make a <br className="hidden md:block  sm:block " />
             Difference Today!
           </h1>
           <p className="hero-text text-base md:text-lg lg:text-sm mb-3">
-            At Buzstopboys, we believe in community and giving back. Join us to transform<br className="hidden md:block" />
+            At Buzstopboys, we believe in community and giving back. Join us to transform<br className="hidden md:block sm:block" />
             lives and strengthen neighborhoods. Together, we can build a brighter future.
           </p>
           <Link href="/contact" passHref>
@@ -197,7 +197,7 @@ export default function Home() {
               className='object-contain w-full h-full'
             />
           </div>
-          <div className="flex flex-col justify-between h-full ml-20"> {/* Make the text container fill the remaining height */}
+          <div className="flex flex-col justify-between h-full "> {/* Make the text container fill the remaining height */}
             <p className="text-white text-sm md:text-base mb-2 ">
               1957 got featured on the street today with <br/>the @buzstopboys Dial:*447*1957# for your tickets.
             </p>
@@ -233,7 +233,7 @@ export default function Home() {
               className='object-contain w-full h-full'
             />
           </div>
-          <div className="flex flex-col justify-between h-full lg:ml-20  ">
+          <div className="flex flex-col justify-between h-full ml-20 ">
             <p className="text-white text-sm md:text-base mb-2">
               Mallam Junction Clean-Up with BuzStopBoys
             </p>

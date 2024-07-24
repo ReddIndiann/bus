@@ -51,8 +51,8 @@ export default function Home() {
         className="w-full min-h-screen bg-cover bg-center relative flex items-end"
         style={{ backgroundImage: "url('../bb2.svg')" }}
       >
-        <div className="bg-transparent text-white md:p-10 lg:p-20 absolute left-0 w-full md:w-3/4 lg:w-3/4">
-          <h1 className="font-bold md:text-4xl lg:text-5xl leading-tight mb-4 lg:-mt-16">
+           <div className="bg-transparent text-white md:p-10 lg:p-20 absolute mt left-0 w-full md:w-3/4 lg:w-3/4 px-10 pb-4" >
+           <h1 className="hero-text font-bold md:text-4xl text-3xl  lg:text-5xl  leading-tight mb-4 lg:-mt-16">
             Our Partners
           </h1>
           <p className="text-base md:text-lg lg:text-sm mb-3">
